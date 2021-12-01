@@ -13,4 +13,4 @@ My solutions for [Advent of Code](https://adventofcode.com/) challenge.
 
 | Day  | Part One | Part Two |
 |---|:---:|:---:|
-| ✔ [Day 1: Sonar Sweep](https://adventofcode.com/2020/day/1) ([Solution](2021/01))|⭐|⭐|
+| ✔ [Day 1: Sonar Sweep](https://adventofcode.com/2021/day/1) ([Solution](2021/01))|⭐|⭐|
