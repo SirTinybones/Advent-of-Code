@@ -1,7 +1,7 @@
 # Advent of Code 🎄
 
 **Author:** William Johansson  
-**GitHub:** SirTinybones
+**GitHub:** @SirTinybones
 
 My solutions for [Advent of Code](https://adventofcode.com/) challenge.
 
