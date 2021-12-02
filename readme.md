@@ -11,6 +11,8 @@ My solutions for [Advent of Code](https://adventofcode.com/) challenge.
 
 ## 2021 Progress
 
+This is will use Advent of Code to develop my Python skils, and try to solve all puzzels using Python!
+
 | Day  | Part One | Part Two |
 |---|:---:|:---:|
 | ✔ [Day 1: Sonar Sweep](https://adventofcode.com/2021/day/1) ([Solution](2021/01))|⭐|⭐|
