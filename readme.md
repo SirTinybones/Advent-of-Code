@@ -17,3 +17,4 @@ This is will use Advent of Code to develop my Python skils, and try to solve all
 |---|:---:|:---:|
 | ✔ [Day 1: Sonar Sweep](https://adventofcode.com/2021/day/1) ([Solution](2021/01))|⭐|⭐|
 | ✔ [Day 2: Dive!](https://adventofcode.com/2021/day/2) ([Solution](2021/02))|⭐|⭐|
+| ✔ [Day 2: Binary Diagnostic](https://adventofcode.com/2021/day/3) ([Solution](2021/03))|⭐|⭐|

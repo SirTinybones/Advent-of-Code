@@ -1,3 +1,5 @@
+# Advent of Code - 2021
+# --- Day 2: Dive! ---
 
 def parse_input (file):
     with open(file, 'r') as f:
@@ -6,6 +8,7 @@ def parse_input (file):
 
 input = parse_input('input.txt')
 
+# PART 1 #
 def solution_1 (input):
     x = 0
     y = 0
@@ -26,6 +29,7 @@ def solution_1 (input):
     print(f'Part 1: {x * y}')
 
 
+# PART 2 #
 def solution_2 (input):
     x = 0
     y = 0

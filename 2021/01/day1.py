@@ -1,3 +1,6 @@
+# Advent of Code - 2021
+# --- Day 1: Sonar Sweep ---
+
 with open('input.txt', 'r') as f:
     data = [int(value) for value in f.readlines()]
 
