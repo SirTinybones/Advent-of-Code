@@ -1,6 +1,23 @@
-# Advent of Code - 2021
-# --- Day 3: Binary Diagnostic ---
-# https://adventofcode.com/2021/day/3
+"""
+	    |
+	   \|/ 
+      --*--
+	   >o<
+	  >O<<<
+	 >>o>>*<
+	>o<<<o<<<
+   >>@>*<<O<<<
+  >o>>@>>>o>o<<
+ >*>>*<o>@<o>>>>
+>o>o<<<O<*>>*>>O<
+   _ __| |__ _
+   
+  Advent of Code
+  
+--- Day 3: Binary Diagnostic ---
+ref: https://adventofcode.com/2021/day/3
+"""
+
 
 def parse_input (file):
     with open(file, 'r') as f:
