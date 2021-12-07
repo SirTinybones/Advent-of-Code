@@ -6,10 +6,10 @@ def parse_input (file):
         return f.readlines()
 
 
-input = parse_input('input.txt')
+input = parse_input('C:\Code\Advent of Code\\2021\\02\input.txt')
 
 # PART 1 #
-def solution_1 (input):
+def part_1 (input):
     x = 0
     y = 0
 
@@ -26,11 +26,11 @@ def solution_1 (input):
         else:
             print(f"{direction} is an unknown direction!")
 
-    print(f'Part 1: {x * y}')
+    return int(x * y)
 
 
 # PART 2 #
-def solution_2 (input):
+def part_2 (input):
     x = 0
     y = 0
     aim = 0
@@ -49,10 +49,8 @@ def solution_2 (input):
         else:
             print(f"{direction} is an unknown direction!")
 
-    print(f'Part 2: {x * y}')
+    return int(x * y)
 
 
-
-
-solution_1(input)
-solution_2(input)
+print(f'Part 1: {part_1(input)}')
+print(f'Part 2: {part_2(input)}')

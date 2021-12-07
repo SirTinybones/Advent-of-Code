@@ -1,6 +1,7 @@
 # --- Day 6: Lanternfish ---
 # https://adventofcode.com/2021/day/6
 
+import time
 
 def parse_input (file):
     with open(file, 'r') as f:
@@ -34,5 +35,15 @@ def simulate_lanternfish(fishes: str, days: int):
 
 data = parse_input('C:\Code\Advent of Code\\2021\\06\input.txt')
 
-print(f'Result 1: {simulate_lanternfish(data,80)}')
-print(f'Result 2: {simulate_lanternfish(data,256)}')
+
+print('--- PART 1 ---')
+time_start = time.perf_counter()
+print(f'Result: {simulate_lanternfish(data,80)}')
+time_end = time.perf_counter()
+print(f'Elapsed time: {time_end - time_start:0.5f} secs.')
+
+print('--- PART 2 ---')
+time_start = time.perf_counter()
+print(f'Result: {simulate_lanternfish(data,256)}')
+time_end = time.perf_counter()
+print(f'Elapsed time: {time_end - time_start:0.5f} secs.') 

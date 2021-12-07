@@ -25,7 +25,7 @@ def parse_input (file):
 
 
 # --- Part One --- 
-def solution_1(input):
+def part_1(input):
     gamma  = ''
     epsilon  = ''
 
@@ -81,12 +81,14 @@ def filter_bits(numbers: list[str], most_common=True):  # isnt that fun?
     assert len(numbers) == 1, f'{numbers=}'
     return numbers[0]
 
-def solution_2(input: str) -> str:
+def part_2(input: str) -> str:
     o2 = int(filter_bits(input, True),2)
     co2 = int(filter_bits(input, False),2)
 
-    print(f'Part 2: {o2 * co2}')
+    return int(o2 * co2)
 
 
-solution_1(parse_input('input.txt'))
-solution_2(parse_input('input.txt'))
+data = parse_input('C:\Code\Advent of Code\\2021\\03\input.txt')
+
+print(f'Part 1: {part_1(data)}')
+print(f'Part 2: {part_2(data)}')
