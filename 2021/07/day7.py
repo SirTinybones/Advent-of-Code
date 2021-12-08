@@ -35,14 +35,22 @@ def part2(data):
     ]))
 
 
-print('--- PART 1 ---')
+puzzel_name = 'The Treachery of Whales'
+banner_lights = '\33[31m•\33[32m•'
+
+print(banner_lights*20 + '\33[0m')
+print('\33[32mPuzzle: ' + puzzel_name + '\33[0m')
+print(banner_lights*20 + '\33[0m')
+
+
+print('\33[91mPART 1\33[0m')
 time_start = time.perf_counter()
 print(f'Result: {part1(data)}')
 time_end = time.perf_counter()
 print(f'Elapsed time: {time_end - time_start:0.5f} secs.') 
 
 
-print('--- PART 2 ---')
+print('\33[91mPART 2\33[0m')
 time_start = time.perf_counter()
 print(f'Result: {part2(data)}')
 time_end = time.perf_counter()
