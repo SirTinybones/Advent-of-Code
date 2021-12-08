@@ -22,3 +22,4 @@ This is will use Advent of Code to develop my Python skils, and try to solve all
 | ✔ [Day 5: Hydrothermal Venture](https://adventofcode.com/2021/day/5) ([Solution](2021/05))|⭐|⭐|
 | ✔ [Day 6: Lanternfish](https://adventofcode.com/2021/day/6) ([Solution](2021/06))|⭐|⭐|
 | ✔ [Day 7: The Treachery of Whales](https://adventofcode.com/2021/day/7) ([Solution](2021/07))|⭐|⭐|
+| ✔ [Day 8: Seven Segment Search](https://adventofcode.com/2021/day/8) ([Solution](2021/08))|⭐|⭐|
